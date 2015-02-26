@@ -101,7 +101,7 @@ public class Environment : MonoBehaviour
 		Camera cam = GetActiveCamera();
 		if (cam)
 		{
-			var toneMap = cam.GetComponent<Tonemapping> ();
+			var toneMap = cam.GetComponent<UnityStandardAssets.ImageEffects.Tonemapping> ();
 			if (toneMap && toneMap.enabled)
 				toneMap.exposureAdjustment = camHDRExposure;
 		}

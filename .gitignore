@@ -29,3 +29,8 @@ Thumbs.db
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
 
+# ignore bvr
+/.build/
+/bvr/
+build.json
+build_manifest.json

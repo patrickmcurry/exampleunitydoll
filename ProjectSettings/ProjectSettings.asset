@@ -13,6 +13,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Unity Technologies
   productName: Doll PBS
+  cloudProjectId: 
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -73,13 +74,13 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.unity3d.doll
+  bundleIdentifier: com.unity3d.doll
+  bundleVersion: 1.0
   preloadedAssets: []
   metroEnableIndependentInputSource: 1
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
   productGUID: d4d28b3af07a94c4aa4c801470c30c34
-  iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
@@ -110,7 +111,7 @@ PlayerSettings:
   iPadHighResPortraitSplashScreen: {fileID: 0}
   iPadLandscapeSplashScreen: {fileID: 0}
   iPadHighResLandscapeSplashScreen: {fileID: 0}
-  iOSCustomLaunchScreenType: 0
+  iOSLaunchScreenType: 0
   iOSLaunchScreenPortrait: {fileID: 0}
   iOSLaunchScreenLandscape: {fileID: 0}
   iOSLaunchScreenBackgroundColor:
@@ -174,14 +175,14 @@ PlayerSettings:
   ps3TrophyCommId: 
   ps3NpCommunicationPassphrase: 
   ps3TrophyPackagePath: 
-  ps3BootCheckMaxSaveGameSizeKB: 128
+  ps3BootCheckMaxSaveGameSizeKB: 0
   ps3TrophyCommSig: 
-  ps3SaveGameSlots: 1
+  ps3SaveGameSlots: 0
   ps3TrialMode: 0
   ps3VideoMemoryForAudio: 0
   ps3EnableVerboseMemoryStats: 0
   ps3UseSPUForUmbra: 0
-  ps3EnableMoveSupport: 1
+  ps3EnableMoveSupport: 0
   ps3DisableDolbyEncoding: 0
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
@@ -199,6 +200,7 @@ PlayerSettings:
   ps4PronunciationSIGPath: 
   ps4BackgroundImagePath: 
   ps4StartupImagePath: 
+  ps4SaveDataImagePath: 
   ps4BGMPath: 
   ps4ShareFilePath: 
   ps4NPtitleDatPath: 
@@ -261,7 +263,8 @@ PlayerSettings:
   psp2InfoBarColor: 0
   psmSplashimage: {fileID: 0}
   spritePackerPolicy: 
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    19: CONSOLE_INPUT
   metroPackageName: SthlmShader
   metroPackageLogo: 
   metroPackageLogo140: 

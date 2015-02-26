@@ -41,4 +41,11 @@ public class EnvironmentUI : MonoBehaviour {
 			material.SetFloat("_Bias",bias);
 		}
 	}
+
+	void Update () {
+		if (eventSystem.currentSelectedGameObject == null)
+		{
+			eventSystem.SetSelectedGameObject(eventSystem.lastSelectedGameObject);
+		}
+	}
 }

@@ -38,7 +38,9 @@ public class InputManager  : MonoBehaviour
 			}
 			else
 			{
+#if !CONSOLE_INPUT
 				Pinched(this,new InputEventArgs(magnitude / firstMagnitude));
+#endif
 			}
 		}
 		else

@@ -13,7 +13,6 @@ QualitySettings:
     shadowResolution: 0
     shadowProjection: 1
     shadowCascades: 1
-    shadowmapFiltering: 1
     shadowDistance: 15
     shadowCascade2Split: .333333343
     shadowCascade4Split: {x: .0666666701, y: .200000003, z: .466666669}
@@ -28,6 +27,7 @@ QualitySettings:
     vSyncCount: 0
     lodBias: .300000012
     maximumLODLevel: 0
+    maxRealtimeReflectionBounces: 1
     particleRaycastBudget: 4
     excludedTargetPlatforms: []
   - serializedVersion: 2
@@ -37,7 +37,6 @@ QualitySettings:
     shadowResolution: 0
     shadowProjection: 1
     shadowCascades: 1
-    shadowmapFiltering: 1
     shadowDistance: 35
     shadowCascade2Split: .333333343
     shadowCascade4Split: {x: .0666666701, y: .200000003, z: .466666669}
@@ -52,6 +51,7 @@ QualitySettings:
     vSyncCount: 0
     lodBias: .400000006
     maximumLODLevel: 0
+    maxRealtimeReflectionBounces: 1
     particleRaycastBudget: 16
     excludedTargetPlatforms: []
   - serializedVersion: 2
@@ -61,7 +61,6 @@ QualitySettings:
     shadowResolution: 0
     shadowProjection: 1
     shadowCascades: 1
-    shadowmapFiltering: 1
     shadowDistance: 20
     shadowCascade2Split: .333333343
     shadowCascade4Split: {x: .0666666701, y: .200000003, z: .466666669}
@@ -76,6 +75,7 @@ QualitySettings:
     vSyncCount: 0
     lodBias: .699999988
     maximumLODLevel: 0
+    maxRealtimeReflectionBounces: 1
     particleRaycastBudget: 64
     excludedTargetPlatforms: []
   - serializedVersion: 2
@@ -85,7 +85,6 @@ QualitySettings:
     shadowResolution: 1
     shadowProjection: 1
     shadowCascades: 2
-    shadowmapFiltering: 1
     shadowDistance: 40
     shadowCascade2Split: .333333343
     shadowCascade4Split: {x: .0666666701, y: .200000003, z: .466666669}
@@ -100,6 +99,7 @@ QualitySettings:
     vSyncCount: 1
     lodBias: 1
     maximumLODLevel: 0
+    maxRealtimeReflectionBounces: 1
     particleRaycastBudget: 256
     excludedTargetPlatforms: []
   - serializedVersion: 2
@@ -109,7 +109,6 @@ QualitySettings:
     shadowResolution: 2
     shadowProjection: 1
     shadowCascades: 2
-    shadowmapFiltering: 1
     shadowDistance: 70
     shadowCascade2Split: .333333343
     shadowCascade4Split: {x: .0666666701, y: .200000003, z: .466666669}
@@ -124,6 +123,7 @@ QualitySettings:
     vSyncCount: 1
     lodBias: 1.5
     maximumLODLevel: 0
+    maxRealtimeReflectionBounces: 1
     particleRaycastBudget: 1024
     excludedTargetPlatforms: []
   - serializedVersion: 2
@@ -133,7 +133,6 @@ QualitySettings:
     shadowResolution: 2
     shadowProjection: 1
     shadowCascades: 4
-    shadowmapFiltering: 2
     shadowDistance: 50
     shadowCascade2Split: .333333343
     shadowCascade4Split: {x: .0666666701, y: .199999988, z: .466666639}
@@ -148,6 +147,7 @@ QualitySettings:
     vSyncCount: 1
     lodBias: 2
     maximumLODLevel: 0
+    maxRealtimeReflectionBounces: 1
     particleRaycastBudget: 4096
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
